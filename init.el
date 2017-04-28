@@ -328,7 +328,7 @@ you should place your code here."
     ;; ....
 
     (setq org-log-done t) ;; 变到 done 状态的时候，记录一下时间
-    (setq org-agenda-files (quote ("~/org/")))
+    (setq org-agenda-files (quote ("~/OneDrive/org/")))
     (setq org-capture-templates(quote (
                                      ("a" "重要紧急" entry (file+headline "~/org/gtd.org" "Tasks")
                                       "* TODO [#A] %?\n  %i\n")
